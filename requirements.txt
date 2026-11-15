@@ -1,0 +1,6 @@
+# Starter constraints only. Replace with exact versions from the runtime used for final results.
+torch>=2.0,<3.0
+numpy
+pandas
+matplotlib
+scikit-learn
