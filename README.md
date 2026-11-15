@@ -143,6 +143,13 @@ problem2/problem2.ipynb
 
 Run all cells from top to bottom.
 
+The final experiment cell uses `RUN_FULL_PROBLEM2 = True` by default. The full
+study trains many models and can take several hours on CPU; a GPU is recommended.
+Set it to `False` to skip full training. The context-length profiling figure is
+still generated using an untrained model when the earlier ablation switch is off.
+The earlier `RUN_HAR_TRANSFORMER`, `RUN_LANGUAGE_MODEL`, and `RUN_P2_ABLATIONS`
+switches may also be used to run individual studies.
+
 The notebook will:
 
 - Verify custom Transformer components
